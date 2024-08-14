@@ -17,9 +17,9 @@
 			<header id="header">
 				<div class="inner">
 					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
-					<h1><strong>Hey! I'm Benjamin</strong>, an aspiring<br />
-					AI engineer and Computer Science <br />
-					student at the University of Toronto </h1>
+					<h1><strong>Hey! I'm Benjamin</strong>, a UofT CS<br />
+					student interested in AI, quant and <br />
+					entrepreneurship.</h1>
 				</div>
 			</header>
 
@@ -38,44 +38,102 @@
 					</section> -->
 
 				<!-- Two -->
-					<section id="two">
-						<h2>My Work</h2>
-						<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://www.instagram.com/direct/inbox/" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
-								<h3>Quantitative Research Intern</h3>
-								<p>Kantar Group (Hong Kong)</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
-								<h3>Software Engineer</h3>
-								<p>SustainaPod</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.png" alt="" /></a>
-								<h3>EduGlow</h3>
-								<p>DeerHacks 2024</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
-								<h3>Chair</h3>
-								<p>ESF Computing Conference 2022</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
-								<h3>Coding Club Leader</h3>
-								<p>ESF Sha Tin College</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
-								<h3>Top 8 Team in Hong Kong</h3>
-								<p>JUMPSTARTER Startup Pitch Competition</p>
-							</article>
+				<div style="display: inline-block; align-items: center;">
+					<h2 style="display: inline-block;">My Work</h2>
+					<ul class="actions" style="display: inline-block; margin-left: 20px;">
+						<li><a href="benjamintsang.pdf" target="_blank" class="button">Full Portfolio</a></li>
+					</ul>
+				</div>
+				<div class="row">
+					<article class="col-6 col-12-xsmall work-item">
+						<a class="image fit thumb" onclick="openPopup('popup1')"><img src="images/thumbs/01.jpg" alt="" /></a>
+						<h3>Quantitative Research Intern</h3>
+						<p>Kantar Group (Hong Kong Office)</p>
+					</article>
+					<div id="popup1" class="popup">
+						<div class="popup-content">
+							<span class="close" onclick="closePopup('popup1')">&times;</span>
+							<h3>Quantitative Research Intern at Kantar Group</h3>
+							<ul>
+								<li>Performed data cleansing, analysis and visualization on large amounts of survey data for client companies, forming reports that inform their marketing decisions.</li>
+								<li>Built Excel macros and VBA scripts to streamline data processing and automate conversion calculations.</li>
+								<li>Engineered a Flask and SQL-based web application hosted on the company intranet to help automate data processing and project management tasks.</li>
+							</ul>
+							<a href="https://www.linkedin.com/company/kantar/about/" target="_blank">Learn more about Kantar</a>
 						</div>
-						<ul class="actions">
-							<li><a href="benjamintsang.pdf" target="_blank" class="button">Full Portfolio</a></li>
-						</ul>
-					</section>
+					</div>
+				
+					<article class="col-6 col-12-xsmall work-item">
+						<a class="image fit thumb" onclick="openPopup('popup2')"><img src="images/thumbs/02.jpg" alt="" /></a>
+						<h3>Software Engineer</h3>
+						<p>SustainaPod</p>
+					</article>
+					<div id="popup2" class="popup">
+						<div class="popup-content">
+							<span class="close" onclick="closePopup('popup2')">&times;</span>
+							<h3>Software Engineer</h3>
+							<p>Description of the role and responsibilities.</p>
+							<a href="link-to-article">Read more</a>
+						</div>
+					</div>
+				
+					<article class="col-6 col-12-xsmall work-item">
+						<a class="image fit thumb" onclick="openPopup('popup3')"><img src="images/thumbs/03.png" alt="" /></a>
+						<h3>EduGlow</h3>
+						<p>DeerHacks 2024</p>
+					</article>
+					<div id="popup3" class="popup">
+						<div class="popup-content">
+							<span class="close" onclick="closePopup('popup3')">&times;</span>
+							<h3>EduGlow</h3>
+							<p>Description of the role and responsibilities.</p>
+							<a href="link-to-article">Read more</a>
+						</div>
+					</div>
+				
+					<article class="col-6 col-12-xsmall work-item">
+						<a class="image fit thumb" onclick="openPopup('popup4')"><img src="images/thumbs/04.jpg" alt="" /></a>
+						<h3>Chair</h3>
+						<p>ESF Computing Conference 2022</p>
+					</article>
+					<div id="popup4" class="popup">
+						<div class="popup-content">
+							<span class="close" onclick="closePopup('popup4')">&times;</span>
+							<h3>Chair</h3>
+							<p>Description of the role and responsibilities.</p>
+							<a href="link-to-article">Read more</a>
+						</div>
+					</div>
+				
+					<article class="col-6 col-12-xsmall work-item">
+						<a class="image fit thumb" onclick="openPopup('popup5')"><img src="images/thumbs/05.jpg" alt="" /></a>
+						<h3>Coding Club Leader</h3>
+						<p>ESF Sha Tin College</p>
+					</article>
+					<div id="popup5" class="popup">
+						<div class="popup-content">
+							<span class="close" onclick="closePopup('popup5')">&times;</span>
+							<h3>Coding Club Leader</h3>
+							<p>Description of the role and responsibilities.</p>
+							<a href="link-to-article">Read more</a>
+						</div>
+					</div>
+				
+					<article class="col-6 col-12-xsmall work-item">
+						<a class="image fit thumb" onclick="openPopup('popup6')"><img src="images/thumbs/06.jpg" alt="" /></a>
+						<h3>Top 8 Team in Hong Kong</h3>
+						<p>JUMPSTARTER Startup Pitch Competition</p>
+					</article>
+					<div id="popup6" class="popup">
+						<div class="popup-content">
+							<span class="close" onclick="closePopup('popup6')">&times;</span>
+							<h3>Top 8 Team in Hong Kong</h3>
+							<p>Description of the role and responsibilities.</p>
+							<a href="link-to-article">Read more</a>
+						</div>
+					</div>
+				</div>
+			</section>
 
 				<!-- Three -->
 					<!-- <section id="three">
@@ -457,6 +515,20 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				function openPopup(popupId) {
+					document.getElementById(popupId).style.display = "block";
+				}
 
+				function closePopup(popupId) {
+					document.getElementById(popupId).style.display = "none";
+				}
+				// Close the popup when clicking outside of it
+				window.onclick = function(event) {
+					if (event.target.className === 'popup') {
+						event.target.style.display = "none";
+					}
+				}
+			</script>
 	</body>
 </html>
