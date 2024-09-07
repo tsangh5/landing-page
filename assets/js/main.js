@@ -24,7 +24,7 @@
 	// Breakpoints.
 		breakpoints({
 			xlarge:  [ '1281px',  '1800px' ],
-			large:   [ '981px',   '1280px' ],
+			large:   [ '1277px',   '1280px' ],
 			medium:  [ '737px',   '980px'  ],
 			small:   [ '481px',   '736px'  ],
 			xsmall:  [ null,      '480px'  ],
